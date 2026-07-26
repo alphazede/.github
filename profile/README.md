@@ -1,22 +1,24 @@
 ## AlphaZede
 
-**Lower the barrier to entry for your team. Keep your IP inside it.**
+**Keeping your team aligned, with AI contained by infrastructure — not promises.**
 
-Coding agents are only worth deploying if the people who need them can actually
-use them, and only safe to deploy if your source stays under your control. Most
-teams get one or the other.
+Coding agents fail in two directions. Most of the time they drift — building
+something adjacent to what your team actually meant. Occasionally they do
+something nobody sanctioned. The first problem is alignment. The second is
+containment. They need different machinery, and we build both.
 
-We build for both. Our tools run on your machines, keep planning and evidence in
-your repository, and hold agents to a scope you approved before work started —
-so an engineer who isn't an agent expert can still get bounded, reviewable work
-out of one.
+The people who block agent adoption inside a company are rarely the juniors.
+They're the engineers who've shipped for twenty years and won't hand a
+repository to a process they can't inspect, bound, or audit. We build for that
+engineer: everything runs on your machines, scope is approved before work
+starts, and what happened afterward is a record you can read.
 
-### Products
+### Shipping now
 
-**[Bearing](https://github.com/alphazede/bearing)** — a local browser control
-room for evidence-backed agent work. It turns a complex repository request into
-an approved plan, bounded execution, owner decisions, and reviewable evidence,
-without surrendering approval or review authority to the agent.
+**[Bearing](https://github.com/alphazede/bearing)** — a local control room for
+agent work. A repository request becomes an approved plan, bounded execution,
+owner decisions, and reviewable evidence, without surrendering approval or
+review authority to the agent.
 
 ```sh
 npm install --global @alphazede/bearing
@@ -34,6 +36,8 @@ interface for reading. Scanning and validation need no agent account.
   authority.
 - Fail closed when a required check can't run.
 - Evidence is reviewable after the fact, or it isn't evidence.
+
+We don't claim an agent can't misbehave. We claim it can't get far.
 
 ---
 
