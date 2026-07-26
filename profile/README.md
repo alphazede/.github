@@ -1,6 +1,6 @@
 ## AlphaZede
 
-**Keeping your team aligned, with AI contained by infrastructure — not promises.**
+**Keeping your team aligned, with AI contained by infrastructure—not promises.**
 
 Coding agents fail in two directions. Most of the time they drift — building
 something adjacent to what your team actually meant. Occasionally they do
