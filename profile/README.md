@@ -15,15 +15,17 @@ starts, and what happened afterward is a record you can read.
 
 ### Shipping now
 
-**[Bearing](https://github.com/alphazede/bearing)** — a local control room for
-agent work. A repository request becomes an approved plan, bounded execution,
-owner decisions, and reviewable evidence, without surrendering approval or
-review authority to the agent.
+**[Bearing Lite](https://github.com/alphazede/bearing-lite)** — a skills-first
+Agent Plugin for planning, routing, bounded execution, and independent review.
+It preserves human authority and reviewable handoffs without shipping a CLI,
+MCP server, browser control room, or hidden runtime state.
 
 ```sh
-npm install --global @alphazede/bearing
-bearing start
+npm pack @alphazede/bearing-lite
 ```
+
+Install it through a compatible Agent Plugin client. The portable package is
+[`@alphazede/bearing-lite`](https://www.npmjs.com/package/@alphazede/bearing-lite).
 
 **[BRAN](https://github.com/alphazede/bran)** — local repository intelligence.
 Deterministic scanning, focused evidence packets, validation, and offline
